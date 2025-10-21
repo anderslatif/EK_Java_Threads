@@ -1,4 +1,4 @@
-package org.example.basics;
+package org.example.locks;
 
 public class PrintThreads extends Thread {
     private static Object lock = new Object();

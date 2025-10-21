@@ -1,8 +1,8 @@
 package org.example.basics;
 
-import java.io.IOException;
+import org.example.locks.PrintThreads;
 
-public class Main {
+public class MainBasics {
     public static void main(String[] args) {
 
         Runtime runtime = Runtime.getRuntime();
