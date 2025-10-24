@@ -2,6 +2,7 @@ package org.example.basics;
 
 import org.example.locks.PrintThreads;
 
+import java.io.IOException;
 import java.time.Duration;
 import java.util.concurrent.Executors;
 
@@ -27,10 +28,10 @@ public class MainBasics {
             e.printStackTrace();
         }*/
 
-//        ThreadExtendsThread extendsThread = new ThreadExtendsThread();
-//        ThreadExtendsThread extendsThreadTwo = new ThreadExtendsThread();
-//        extendsThread.start();
-//        extendsThreadTwo.start();
+/*        ThreadExtendsThread extendsThread = new ThreadExtendsThread("Thread-1");
+        ThreadExtendsThread extendsThreadTwo = new ThreadExtendsThread("Thread-2");
+        extendsThread.start();
+        extendsThreadTwo.start();*/
 
 //        ThreadImplementsRunnable implementsRunnable = new ThreadImplementsRunnable();
 //        Thread thread = new Thread(implementsRunnable);
@@ -59,7 +60,8 @@ public class MainBasics {
         });*/
 
 
-/*        try (var executor = Executors.newVirtualThreadPerTaskExecutor()) {
+/*
+        try (var executor = Executors.newVirtualThreadPerTaskExecutor()) {
             for (int i = 0; i < 1_000_000; i++) {
                 executor.submit(() -> {
                     try {
@@ -70,7 +72,8 @@ public class MainBasics {
                     System.out.println("Task on: " + Thread.currentThread());
                 });
             }
-        }  // Auto-shutdown*/
+        }  // Auto-shutdown
+*/
 
 
     }

@@ -3,7 +3,7 @@ package org.example.counting;
 public class MainCounting {
     public static void main(String[] args) throws Exception {
 
-/*        ClassicCounter classicCounter = new ClassicCounter();
+        ClassicCounter classicCounter = new ClassicCounter();
 
         Thread t1 = new Thread(() -> {
             for (int i = 0; i < 10000; i++) {
@@ -21,9 +21,9 @@ public class MainCounting {
         t2.start();
 
 
-        System.out.println(classicCounter.getCounter());*/
+        System.out.println(classicCounter.getCounter());
 
-        SynchronizedCounter synchronizedCounter = new SynchronizedCounter();
+/*        SynchronizedCounter synchronizedCounter = new SynchronizedCounter();
 
         Thread t1 = new Thread(() -> {
             for (int i = 0; i < 10000; i++) {
@@ -43,7 +43,7 @@ public class MainCounting {
         t1.join();
         t2.join();
 
-        System.out.println(synchronizedCounter.getCounter());
+        System.out.println(synchronizedCounter.getCounter());*/
 
 /*        AtomicCounter atomicCounter = new AtomicCounter();
 

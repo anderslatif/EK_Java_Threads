@@ -15,16 +15,16 @@ public class MainLocks {
         thread3.start();*/
 
 
-        ReentrantLockExample reentrantLockExample = new ReentrantLockExample();
+/*        ReentrantLockExample reentrantLockExample = new ReentrantLockExample();
 
         Thread reentrantLockThreadOne = new Thread(reentrantLockExample);
         Thread reentrantLockThreadTwo = new Thread(reentrantLockExample);
 
         reentrantLockThreadOne.start();
-        reentrantLockThreadTwo.start();
+        reentrantLockThreadTwo.start();*/
 
 
-/*        Semaphore semaphore = new Semaphore(1);
+        Semaphore semaphore = new Semaphore(1);
 
         SemaphoreExample semaphoreExample = new SemaphoreExample(semaphore);
 
@@ -32,7 +32,7 @@ public class MainLocks {
         Thread semaphoreThreadTwo = new Thread(semaphoreExample);
 
         semaphoreThreadOne.start();
-        semaphoreThreadTwo.start();*/
+        semaphoreThreadTwo.start();
 
         // thread 1: I want to use the resource
         // semaphore = 1 ... -> 0
